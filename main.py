@@ -22,6 +22,7 @@ Total_tip_amount = Bill_as_float * Tip_as_percent
 Total_bill = Bill_as_float + Total_tip_amount
 Bill_per_person = Total_bill / People_as_int
 Total_Per_Person = round(Bill_per_person, 2)
+Total_Per_Person = "{:.2f}".format(Bill_per_person)
 
 #print Amount
 print(f"Each person should pay: ${Total_Per_Person}")
