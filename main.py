@@ -25,5 +25,5 @@ Total_Per_Person = round(Bill_per_person, 2)
 Total_Per_Person = "{:.2f}".format(Bill_per_person)
 
 #print Amount
-print(f"Each person should pay: ${Total_Per_Person}")
+print(f"Each person should pay: CHF {Total_Per_Person}")
 
